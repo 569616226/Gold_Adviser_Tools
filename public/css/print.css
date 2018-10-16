@@ -1,0 +1,23 @@
+.print_box {
+	width: 100%;
+	margin: 0 auto;
+	height: 450mm;
+	background-color: white;
+}
+.print_bg1 {
+	background: url(../images/pdfbg.jpg) no-repeat;
+	background-position: center top;
+}
+.print_box .titlep1 {
+	color: #0073D4;
+	font-size: 60px;
+	padding-top: 300px;
+}
+.print_box .titlep2 {
+	color: #0073D4;
+	font-size: 60px;
+}
+.print_box .table1 {
+	width: 100mm;
+	margin: 40mm auto;
+}

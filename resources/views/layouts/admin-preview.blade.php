@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@yield('title')-金牌顾问培训及项目管理系统</title>
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <!-- <link rel="icon" type="image/png" href="assets/i/favicon.png"> -->
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content=""/>
+    @section('css')
+        <link rel="stylesheet" href="/../css/amazeui.min.css">
+        <link rel="stylesheet" href="/../css/main.css">
+        <style type="text/css">
+            .dhkh-nav > ul > li.am-active:before {
+                content: "";
+                height: .6rem;
+                width: .6rem;
+                border-radius: 100%;
+                background: #03A9F4;
+                position: absolute;
+                left: 2rem;
+                top: 2.2rem;
+                z-index: 100;
+            }
+        </style>
+    @show
+</head>
+
+<body>
+
+@yield('content')
+
+
+@section('javascript')
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="/../js/jquery.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8 ]>
+    <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+    <script src="/../assets/js/amazeui.ie8polyfill.min.js"></script>
+    <![endif]-->
+    <script src="/../js/amazeui.min.js"></script>
+    <script src="/../js/nicescroll/nicescroll.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/../js/main.js" type="text/javascript" charset="utf-8"></script>
+@show
+</body>
+
+</html>
